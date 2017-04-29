@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="70.555557mm"
+   height="70.555557mm"
+   viewBox="0 0 250.00001 250"
+   id="svg4599"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="eye.svg">
+  <defs
+     id="defs4601" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="189.47357"
+     inkscape:cy="144.80128"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4604">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(404.28571,-260.93363)">
+    <g
+       id="g4438-8"
+       transform="matrix(2.6455965,0,0,2.6455965,-361.11977,304.09966)">
+      <g
+         id="g4393-5">
+        <g
+           id="g4395-2">
+          <g
+             id="sun_glasses-2">
+            <g
+               id="g4398-5">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path4400-3"
+                 d="m 43.998,20.008 c -4.576,0.328 -9.312,2.115 -14.479,1.771 -3.854,-0.261 -7.827,-1.496 -11.421,-1.771 -2.441,-0.186 -6.161,0 -8.043,0.161 -3.557,0.305 -8.954,0.891 -9.812,3.38 -1.007,2.925 1.398,3.917 1.931,5.147 0.771,1.787 0.685,3.634 1.286,5.146 0.56,1.398 1.289,2.933 2.252,4.186 3.467,4.511 13.371,4.954 17.855,1.287 1.418,-1.162 2.895,-3.605 3.86,-5.791 0.679,-1.538 1.441,-6.113 3.538,-6.113 1.609,0 1.828,1.438 2.253,2.896 1.184,4.059 3.156,7.833 5.951,9.651 4.375,2.85 12.125,2.641 15.604,-0.322 2.096,-1.783 3.529,-4.922 4.345,-7.561 0.321,-1.047 0.206,-2.378 0.645,-3.378 0.655,-1.501 2.243,-1.776 2.092,-4.185 -0.29,-4.547 -12.173,-4.911 -17.857,-4.504 z M 22.282,37.382 c -3.14,2.622 -9.775,3.034 -13.19,0.646 -2.047,-1.436 -5.787,-8.71 -3.379,-13.192 0.855,-1.593 2.395,-1.997 4.665,-2.253 5.873,-0.659 14.79,0.221 16.087,4.344 1.227,3.906 -2.257,8.844 -4.183,10.455 z m 34.424,-7.561 c -0.272,3.131 -1.959,7.221 -4.184,8.362 -4.875,2.509 -11.542,1.283 -14.479,-2.571 -1.506,-1.979 -3.467,-5.81 -2.573,-8.688 0.933,-3.01 5.355,-3.991 9.65,-4.344 7.573,-0.618 12.254,-0.411 11.586,7.241 z M 51.92,23.71 c -0.107,-0.234 -0.388,-0.336 -0.622,-0.228 -0.233,0.107 -0.336,0.389 -0.229,0.623 l 3.006,6.45 c 0.107,0.234 0.388,0.336 0.62,0.229 0.234,-0.109 0.338,-0.388 0.229,-0.622 L 51.92,23.71 Z m -1.562,1.561 C 50.251,25.037 49.97,24.933 49.736,25.042 49.504,25.151 49.4,25.43 49.508,25.664 l 2.067,4.892 c 0.107,0.234 0.388,0.336 0.622,0.229 0.232,-0.109 0.336,-0.388 0.227,-0.622 l -2.066,-4.892 z m 27.822501,5.661143 A 47.248324,47.248324 0 0 1 30.932177,78.180467 47.248324,47.248324 0 0 1 -16.316147,30.932143 47.248324,47.248324 0 0 1 30.932177,-16.31618 47.248324,47.248324 0 0 1 78.180501,30.932143 Z"
+                 style="fill:#fefefe;fill-opacity:1" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g4402-5" />
+      <g
+         id="g4404-6" />
+      <g
+         id="g4406-4" />
+      <g
+         id="g4408-3" />
+      <g
+         id="g4410-3" />
+      <g
+         id="g4412-6" />
+      <g
+         id="g4414-5" />
+      <g
+         id="g4416-4" />
+      <g
+         id="g4418-5" />
+      <g
+         id="g4420-8" />
+      <g
+         id="g4422-4" />
+      <g
+         id="g4424-9" />
+      <g
+         id="g4426-2" />
+      <g
+         id="g4428-3" />
+      <g
+         id="g4430-2" />
+    </g>
+  </g>
+</svg>
