@@ -1,15 +1,9 @@
 /* INDEX */
 
 .index-header {
-    margin: auto;    
-    padding: 180px 0px 100px 20px;
-    background: url('../images/logos/nav-logo-0.4.svg') no-repeat center 30px;
-    background-size: 150px; 
-    padding: 50px 0px 100px 10px;
-    color: #1f1f1f;
     font-family: 'Playfair Display';
-    font-size: 4.5em;
-    font-size: 7vw;
+    font-size: 3rem;
+    font-size: 6vw;
     font-weight: 700;
     font-variant: small-caps;
     letter-spacing: 0.25em;
