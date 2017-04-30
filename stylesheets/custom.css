@@ -9,3 +9,14 @@
     letter-spacing: 0.25em;
     text-align: center;
 }
+
+@media (min-width: 992px) {
+  .index-header {
+    font-size: 4rem;
+    font-size: 4.5vw;
+  }
+
+  .index-header-img {
+    width: 12%;
+  }
+}
