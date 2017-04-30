@@ -8,6 +8,7 @@
     font-variant: small-caps;
     letter-spacing: 0.25em;
     text-align: center;
+    padding-top: 10%;
 }
 
 @media (min-width: 992px) {
@@ -16,7 +17,7 @@
     font-size: 4.5vw;
   }
 
-  .index-header-img {
+/*  .index-header-img {
     width: 12% !important;
-  }
+  }*/
 }
