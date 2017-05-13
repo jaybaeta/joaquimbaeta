@@ -8,7 +8,8 @@
    2.1.2...Section-specific
    2.1.3...Section-to-section
    2.2.....Background colours
-   3.......Navbar
+   3.......Typography
+   4.......Navbar
 
 */
 
@@ -131,9 +132,45 @@ kbd {
   background: #1f1f1f;
 }
 
-/* 3 NAVBAR */
+/* 3 TYPOGRAPHY */
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Raleway", "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.tooltip {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Raleway", "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.popover {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Raleway", "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* 4 NAVBAR */
 
 .nav-link {
-  padding: 1.13rem 0.9rem !important;
+  padding: 1.3rem 0.9rem !important;
+  letter-spacing: 0.1rem;
+  font-size: 0.95rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
