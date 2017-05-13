@@ -1,4 +1,18 @@
-/* INDEX */
+/* TABLE OF CONTENTS
+   =================
+
+   1.......Index
+   2.......Colours
+   2.1.....Text colours
+   2.1.1...Base to #1F1F1F
+   2.1.2...Section-specific
+   2.1.3...Section-to-section
+   2.2.....Background colours
+   3.......Navbar
+
+*/
+
+/* 1 INDEX */
 
 .index-header {
     font-family: 'Playfair Display';
@@ -18,3 +32,108 @@
     font-size: 4.5vw;
   }
 }
+
+/* 2 COLOURS */
+
+/* 2.1 TEXT COLOURS */
+
+/* 2.1.1 BASE TO #1F1F1F */
+
+body {
+  color: #1f1f1f;
+}
+
+pre {
+  color: #1f1f1f;
+}
+
+.btn-secondary:hover {
+  color: #1f1f1f;
+}
+
+.btn-secondary:active, .btn-secondary.active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #1f1f1f;
+}
+
+.dropdown-menu {
+  color: #1f1f1f;
+}
+
+.dropdown-item {
+  color: #1f1f1f;
+}
+
+.list-group-item-action .list-group-item-heading {
+  color: #1f1f1f;
+}
+
+.list-group-item-action:active {
+  color: #1f1f1f;
+}
+
+.text-gray-dark {
+  color: #1f1f1f !important;
+}
+
+/* 2.1.2 SECTION-SPECIFIC */
+
+.lit-nav, .film-nav, .sound-nav, .photo-nav, .art-nav, .dev-nav, .credits-nav {
+  color: #fff;
+}
+
+/* 2.1.3 SECTION-TO-SECTION */
+
+.lit-film-text:hover {
+    color: #6a1d30 !important;
+}
+
+.lit-sound-text:hover {
+    color: #8d4134 !important;
+}
+
+.lit-photo-text:hover {
+    color: #1a584d !important;
+}
+
+.lit-art-text:hover {
+    color: #352b3b !important;
+}
+
+.lit-dev-text:hover {
+    color: #765d3a !important;
+}
+
+
+/* 2.2 BACKGROUND COLOURS */
+
+.bg-lit {
+  background: #1f1f1f;
+}
+
+kbd {
+  background-color: #1f1f1f;
+}
+
+.thead-inverse th {
+  background-color: #1f1f1f;
+}
+
+.table-inverse {
+  background-color: #1f1f1f;
+}
+
+.btn-secondary {
+  background-color: #fff;
+}
+
+.bg-inverse {
+  background: #1f1f1f;
+}
+
+/* 3 NAVBAR */
+
+.nav-link {
+  padding: 1.13rem 0.9rem !important;
+}
+
