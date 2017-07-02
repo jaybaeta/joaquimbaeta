@@ -146,6 +146,18 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Raleway", "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
+.article_literature {
+  font-family: 'Playfair Display';
+}
+
+.article_literature h1 {
+  font-weight: 700;
+}
+
+.redacted {
+  background-color: #1f1f1f;
+}
+
 /* 4 NAVBAR */
 
 .nav-link {
