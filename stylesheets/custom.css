@@ -17,7 +17,7 @@
 
 /* 1 INDEX */
 
-.index-header {
+/*.index-header {
     font-family: 'Playfair Display';
     font-size: 3rem;
     font-size: 6vw;
@@ -34,6 +34,36 @@
     font-size: 4rem;
     font-size: 4.5vw;
   }
+}*/
+
+.index-imgs {
+  height: 100vh; 
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all ease-in-out 0.2s;
+}
+
+.index-imgs:hover {
+  filter: grayscale(0%);
+}
+
+@media (max-width: 991px) {
+  .index-imgs {
+    height: 50vh;
+  }
+}
+
+.index-section-header {
+  color: #ffffffbb;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 300;
+  transition: all ease-in-out 0.2s;
+}
+
+.index-section-header:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* 2 COLOURS */
@@ -107,11 +137,43 @@ pre {
     color: #765d3a !important;
 }
 
+/* 2.1.4 LINK COLOURS */
+
+.lit-link{
+  color: #1f1f1f
+}
+
+.film-link
+
 
 /* 2.2 BACKGROUND COLOURS */
 
 .bg-lit {
   background: #1f1f1f;
+}
+
+.bg-film- {
+    background: #B61C42;
+}
+
+.bg-sound {
+    background: #FC654A;
+}
+
+.bg-photo {
+    background: #17927D;
+}
+
+.bg-art {
+    background: #4C3959;
+}
+
+.bg-dev {
+  background: #CD9C56;
+}
+
+.bg-credits {
+    background: #FEFEFE
 }
 
 kbd {
@@ -159,6 +221,11 @@ body {
 .redacted {
   background-color: #1f1f1f;
 }
+
+.figure-caption {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
 
 /* 4 NAVBAR */
 
