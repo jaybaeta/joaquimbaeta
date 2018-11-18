@@ -152,7 +152,7 @@ pre {
   background: #1f1f1f;
 }
 
-.bg-film- {
+.bg-film {
     background: #B61C42;
 }
 
@@ -240,6 +240,18 @@ body {
 /* 5.1 LITERATURE */
 
 .lit-list h3 {
+  text-align: right;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lit-list h4 {
+  text-align: right;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lit-list h5 {
   text-align: right;
   font-weight: 700;
   font-style: italic;
