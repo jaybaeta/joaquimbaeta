@@ -211,11 +211,51 @@ body {
 }
 
 .article_literature {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
 }
 
 .article_literature h1 {
   font-weight: 700;
+}
+
+.article_film {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article_film h1 {
+  font-weight: 300;
+}
+
+.article_sound {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article_sound h1 {
+  font-weight: 300;
+}
+
+.article_photo {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article_photo h1 {
+  font-weight: 300;
+}
+
+.article_art {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article_art h1 {
+  font-weight: 300;
+}
+
+.article_dev {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article_dev h1 {
+  font-weight: 300;
 }
 
 .redacted {
