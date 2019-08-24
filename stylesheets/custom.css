@@ -52,9 +52,17 @@
   filter: grayscale(0%);
 }
 
+.index-imgs-link {
+  height: calc(100vh - 64px);
+}
+
 @media (max-width: 991px) {
   .index-imgs {
     height: 50vh;
+  }
+
+  .index-imgs-link {
+    height: calc(50vh - 64px);
   }
 }
 
