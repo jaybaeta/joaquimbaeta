@@ -8,8 +8,8 @@
     <title>Academic journal editorial design &mdash; Joaquim Baeta</title>
     
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Source+Sans+Pro" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae9bb87dc8.js"></script>
 
     <!-- CSS -->
     <link href="../stylesheets/bootstrap.css" rel="stylesheet" />
@@ -57,20 +57,85 @@
       <div class="row mb-5">
         <div class="col-12">
           <h1 class="text-center mb-4">Academic journal editorial design</h1>
-          <p class="lead">This page contains examples of academic journals and some magazines' editorial designs. Its purpose is to inspire other journals' typesetters or designers, and to show the different paths they can take when designing their article templates.</p>
+<div class="row">
+  <div class="col-md-8">
+    <p class="lead">This page contains examples of academic journals and some magazines' editorial designs. Its purpose is to inspire other journals' typesetters or designers, and to show the different paths they can take when designing their article templates.</p>
 
-          <p class="lead"><b>A note on article reuse:</b> all articles in this repo are open access; they are either from an open access journal or have been released after an embargo period. Consequently some articles are representative of journals as they were three or four years ago, not today.</p>
+    <p class="lead"><b>A note on article reuse:</b> all articles in this repo are open access; they are either from an open access journal or have been released after an embargo period. Consequently some articles are representative of journals as they were three or four years ago, not today.</p>
+  </div>
+  <div class="col-md-4">
+
+          <input type="search" placeholder="Start typing.." name="search" class="form-control searchbox-input" required="">
+
+<br>
+
+<div id="filters" class="button-group">
+  <button class="btn btn-primary" data-filter="*">Show all</button>
+  <button class="btn btn-primary" data-filter=".cat-1">Cat 1</button>
+  <button class="btn btn-primary" data-filter=".cat-2">Cat 2</button>
+</div>
+
+<br>
+            <h5>Browse by type</h5>
+
+<div class="btn-group bg-art" role="group" aria-label="Categories">
+            <button type="button" class="btn btn-primary">1</button>
+  <button type="button" class="btn btn-secondary">2</button>
+
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-primary text-white" disabled=""><i class="fab fa-wikipedia-w fa-fw"></i></button>
+    <button id="pagesize" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Page size
+    </button>
+    <div class="dropdown-menu" aria-labelledby="pagesize">
+      <a class="dropdown-item" href="#">A4</a>
+      <a class="dropdown-item" href="#">US letter</a>
+      <a class="dropdown-item" href="#">A5</a>
+    </div>
+  </div>
+
+  <div class="btn-group" role="group">
+    <button id="columnnumbers" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Number of columns
+    </button>
+    <div class="dropdown-menu" aria-labelledby="columnnumbers">
+      <a class="dropdown-item" href="#">One column</a>
+      <a class="dropdown-item" href="#">Two columns</a>
+      <a class="dropdown-item" href="#">Three columns</a>
+    </div>
+  </div>
+
+  <div class="btn-group" role="group">
+    <button id="colour" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Colour
+    </button>
+    <div class="dropdown-menu" aria-labelledby="colour">
+      <a class="dropdown-item" href="#">Monochrome</a>
+      <a class="dropdown-item" href="#">Colour</a>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+
+  
+
+          
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-4 col-lg-3 mb-4">
+      
+      </div>
+
+      <div id="journal-list" class="row">
+        <div id="1" class="item cat-1 col-sm-4 col-lg-3 mb-4">
           <div class="journal-example">
             <div class="journal-example-first-page">
               <a href="applied-and-environmental-microbiology.html"><img src="../images/art/academic-journal-editorial-design/applied-and-environmental-microbiology-small.png" alt="Applied and Environmental Microbiology"></a>
             </div>
           </div>
-          
+        
           <div class="journal-example-details">
             <h3 class="mb-4"><a href="applied-and-environmental-microbiology.html">Applied and Environmental Microbiology</a></h3>
 
@@ -87,6 +152,35 @@
             </div>
           </div>
         </div>
+
+
+        <div id="2" class="item cat-2 col-sm-4 col-lg-3 mb-4">
+          <div class="journal-example">
+            <div class="journal-example-first-page">
+              <a href="applied-and-environmental-microbiology.html"><img src="../images/art/academic-journal-editorial-design/applied-and-environmental-microbiology-small.png" alt="Applied and Environmental Microbiology"></a>
+            </div>
+          </div>
+        
+          <div class="journal-example-details">
+            <h3 class="mb-4"><a href="applied-and-environmental-microbiology.html">Applied and Environmental Microbiology</a></h3>
+
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-columns"></i></span>Single column</li>
+              <li><span class="fa-li"><i class="fas fa-palette"></i></span>Colour</li>
+              <li><span class="fa-li" ><i class="fas fa-ruler-combined" title="Page size"></i></span>206.4 × 276.2 mm</li>
+              <li><span class="fa-li"><i class="far fa-calendar-alt" title="Date this sample was published"></i></span>September 2018</li>
+            </ul>
+
+            <div class="journal-example-details-footer">
+              <hr style="border-top: 1px solid #614e6f;">
+              <a href="applied-and-environmental-microbiology.html">Read analysis</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </div>
     </div>
     
@@ -217,14 +311,29 @@
       }
 
     </style>
+
+    <script>
+      $( document ).ready(function() {
+        /* activate jquery isotope */
+        var $container = $('#journal-list').isotope({
+          itemSelector : '.item',
+          isFitWidth: true
+        });
+
+        $(window).smartresize(function(){
+          $container.isotope({
+            columnWidth: '.col-sm-4 .col-lg-3'
+          });
+        });
+        
+        $container.isotope({ filter: '*' });
+
+          // filter items on button click
+        $('#filters').on( 'click', 'button', function() {
+          var filterValue = $(this).attr('data-filter');
+          $container.isotope({ filter: filterValue });
+        });
+      });
+    </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-

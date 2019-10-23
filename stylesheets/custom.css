@@ -272,23 +272,23 @@ kbd {
 /* 3 TYPOGRAPHY */
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Raleway", "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 .tooltip {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Raleway", "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 .popover {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Raleway", "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
-.article_literature {
+.article-literature {
   background-color: #f9fae5; /* Alternatives: #f6f4e9, #eee9de, #efead6 */
   font-family: 'Playfair Display', serif;
 }
 
-.article_literature h1 {
+.article-literature h1 {
   font-size: 6rem;
   font-weight: 700;
   color: #d9cdbccc;
@@ -296,7 +296,7 @@ body {
 }
 
 @media (max-width: 575px) {
-  .article_literature h1 {
+  .article-literature h1 {
     font-size: 4rem;
   }
 }
@@ -390,6 +390,11 @@ body {
   .lit-list img {
   max-width: 70%;
   }
+}
+
+.article-poetry .col-12 {
+  margin: auto;
+  max-width: 30rem;
 }
 
 /* 5.2 FILM */
