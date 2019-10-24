@@ -22,6 +22,8 @@
     5.4.......Photography
     5.5.......Art
     5.6.......Development
+    6.........Styling
+    6.1.......Buttons
 
     =============================  */
 
@@ -439,3 +441,61 @@ body {
   opacity: 0.85;
   box-shadow: 0 0 25px 0 rgb(14, 7, 18) inset;
 }
+
+.btn-art {
+  color: #fff;
+  background-color: #4C3959;
+  border-color: #4C3959;
+  border-radius: 0;
+}
+
+.btn-art:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-art:focus, .btn-art.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-art.disabled, .btn-art:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-art:not(:disabled):not(.disabled):active, .btn-art:not(:disabled):not(.disabled).active,
+.show > .btn-art.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.btn-art:not(:disabled):not(.disabled):active:focus, .btn-art:not(:disabled):not(.disabled).active:focus,
+.show > .btn-art.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+/* 6 STYLING */
+
+/* 6.1 BUTTONS */
+
+.btn-empty {
+  color: #1f1f1f;
+  background-color: #fcfcfc;
+  border-color: #4C3959;
+  border-radius: 0;
+}
+
+.btn-empty:hover {
+  color: #1f1f1f;
+  background-color: #fcfcfc;
+  border-color: #4C3959;
+  cursor: default;
+}
+
+.btn-empty:focus, .btn-empty.focus {
+  box-shadow: none;
+}
+

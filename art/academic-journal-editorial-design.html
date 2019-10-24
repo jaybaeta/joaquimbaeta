@@ -16,7 +16,9 @@
     <link href="../stylesheets/custom.css" rel="stylesheet" />
 
     <!-- JAVASCRIPT -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="../javascripts/isotope.js"></script>
     <script src="../javascripts/bootstrap.js"></script>
 
     <!-- FAVICON -->
@@ -65,58 +67,43 @@
   </div>
   <div class="col-md-4">
 
-          <input type="search" placeholder="Start typing.." name="search" class="form-control searchbox-input" required="">
+    <input type="search" placeholder="Search for journal" name="search" class="form-control searchbox-input" required="">
 
-<br>
+    <br>
 
-<div id="filters" class="button-group">
-  <button class="btn btn-primary" data-filter="*">Show all</button>
-  <button class="btn btn-primary" data-filter=".cat-1">Cat 1</button>
-  <button class="btn btn-primary" data-filter=".cat-2">Cat 2</button>
+
+
+
+
+
+
+
+    <h5>Filter journals <div class="btn-group filters" role="group" aria-label="Categories"><button type="button" class="btn btn-art text-white ml-3" data-filter="*">All journals</button></div></h5>
+
+<div class="btn-group filters" role="group" aria-label="Categories">
+  <button class="btn btn-empty">Number of columns</button>
+  <button class="btn btn-art" data-filter=".single-column">1</button> <!-- A4 / US letter / A5 -->
+  <button class="btn btn-art" data-filter=".double-column">2</button>
 </div>
 
 <br>
-            <h5>Browse by type</h5>
 
-<div class="btn-group bg-art" role="group" aria-label="Categories">
-            <button type="button" class="btn btn-primary">1</button>
-  <button type="button" class="btn btn-secondary">2</button>
-
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-primary text-white" disabled=""><i class="fab fa-wikipedia-w fa-fw"></i></button>
-    <button id="pagesize" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Page size
-    </button>
-    <div class="dropdown-menu" aria-labelledby="pagesize">
-      <a class="dropdown-item" href="#">A4</a>
-      <a class="dropdown-item" href="#">US letter</a>
-      <a class="dropdown-item" href="#">A5</a>
-    </div>
-  </div>
-
-  <div class="btn-group" role="group">
-    <button id="columnnumbers" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Number of columns
-    </button>
-    <div class="dropdown-menu" aria-labelledby="columnnumbers">
-      <a class="dropdown-item" href="#">One column</a>
-      <a class="dropdown-item" href="#">Two columns</a>
-      <a class="dropdown-item" href="#">Three columns</a>
-    </div>
-  </div>
-
-  <div class="btn-group" role="group">
-    <button id="colour" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Colour
-    </button>
-    <div class="dropdown-menu" aria-labelledby="colour">
-      <a class="dropdown-item" href="#">Monochrome</a>
-      <a class="dropdown-item" href="#">Colour</a>
-    </div>
-  </div>
+<div class="btn-group filters" role="group" aria-label="Categories">
+  <button class="btn btn-empty">Use of colour</button>
+  <button class="btn btn-art" data-filter=".monochrome">Monochrome</button> <!-- A4 / US letter / A5 -->
+  <button class="btn btn-art" data-filter=".colour">Colour</button>
+</div>
+            
+<!-- Number of columns: 1 / 2 / 3 -->
+<!-- Use of colour: monochrome / colour -->
 
 
-  </div>
+
+
+
+
+
+
 </div>
 
   
@@ -129,23 +116,20 @@
       </div>
 
       <div id="journal-list" class="row">
-        <div id="1" class="item cat-1 col-sm-4 col-lg-3 mb-4">
+        <div id="1" class="journal-item single-column colour col-sm-4 col-lg-3 mb-4"><!-- Applied and Environmental Microbiology -->
           <div class="journal-example">
             <div class="journal-example-first-page">
               <a href="applied-and-environmental-microbiology.html"><img src="../images/art/academic-journal-editorial-design/applied-and-environmental-microbiology-small.png" alt="Applied and Environmental Microbiology"></a>
             </div>
           </div>
-        
           <div class="journal-example-details">
             <h3 class="mb-4"><a href="applied-and-environmental-microbiology.html">Applied and Environmental Microbiology</a></h3>
-
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-columns"></i></span>Single column</li>
               <li><span class="fa-li"><i class="fas fa-palette"></i></span>Colour</li>
               <li><span class="fa-li" ><i class="fas fa-ruler-combined" title="Page size"></i></span>206.4 × 276.2 mm</li>
               <li><span class="fa-li"><i class="far fa-calendar-alt" title="Date this sample was published"></i></span>September 2018</li>
             </ul>
-
             <div class="journal-example-details-footer">
               <hr style="border-top: 1px solid #614e6f;">
               <a href="applied-and-environmental-microbiology.html">Read analysis</a>
@@ -153,24 +137,20 @@
           </div>
         </div>
 
-
-        <div id="2" class="item cat-2 col-sm-4 col-lg-3 mb-4">
+        <div id="2" class="journal-item double-column colour col-sm-4 col-lg-3 mb-4">
           <div class="journal-example">
             <div class="journal-example-first-page">
-              <a href="applied-and-environmental-microbiology.html"><img src="../images/art/academic-journal-editorial-design/applied-and-environmental-microbiology-small.png" alt="Applied and Environmental Microbiology"></a>
+              <a href="applied-and-environmental-microbiology.html"><img src="../images/art/academic-journal-editorial-design/american-journal-of-gastroenterology-small.png" alt="American Journal of Gastroenterology"></a>
             </div>
           </div>
-        
           <div class="journal-example-details">
-            <h3 class="mb-4"><a href="applied-and-environmental-microbiology.html">Applied and Environmental Microbiology</a></h3>
-
+            <h3 class="mb-4"><a href="american-journal-of-gastroenterology.html">American Journal of Gastroenterology</a></h3>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-columns"></i></span>Single column</li>
+              <li><span class="fa-li"><i class="fas fa-columns"></i></span>Double column</li>
               <li><span class="fa-li"><i class="fas fa-palette"></i></span>Colour</li>
-              <li><span class="fa-li" ><i class="fas fa-ruler-combined" title="Page size"></i></span>206.4 × 276.2 mm</li>
-              <li><span class="fa-li"><i class="far fa-calendar-alt" title="Date this sample was published"></i></span>September 2018</li>
+              <li><span class="fa-li" ><i class="fas fa-ruler-combined" title="Page size"></i></span>210 × 279 mm</li>
+              <li><span class="fa-li"><i class="far fa-calendar-alt" title="Date this sample was published"></i></span>December 2018</li>
             </ul>
-
             <div class="journal-example-details-footer">
               <hr style="border-top: 1px solid #614e6f;">
               <a href="applied-and-environmental-microbiology.html">Read analysis</a>
@@ -314,22 +294,20 @@
 
     <script>
       $( document ).ready(function() {
-        /* activate jquery isotope */
         var $container = $('#journal-list').isotope({
-          itemSelector : '.item',
+          itemSelector : '.journal-item',
           isFitWidth: true
         });
 
-        $(window).smartresize(function(){
-          $container.isotope({
-            columnWidth: '.col-sm-4 .col-lg-3'
-          });
-        });
+        // $(window).smartresize(function(){
+        //   $container.isotope({
+        //     columnWidth: '.col-sm-4 .col-lg-3'
+        //   });
+        // });
         
         $container.isotope({ filter: '*' });
 
-          // filter items on button click
-        $('#filters').on( 'click', 'button', function() {
+        $('.filters').on( 'click', 'button', function() {
           var filterValue = $(this).attr('data-filter');
           $container.isotope({ filter: filterValue });
         });
