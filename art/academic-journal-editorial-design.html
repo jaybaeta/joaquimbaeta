@@ -69,26 +69,30 @@
 
               <br>
 
-              <h5>Filter journals <div class="btn-group filter" role="group" aria-label="Categories"><button type="button" class="btn btn-art text-white ml-3" data-filter="*">All journals</button></div></h5>
+              <h5>Filter journals <div class="btn-group filter" role="group" aria-label="Categories"><button type="button" class="btn btn-outline-art ml-3" data-filter="*">All journals</button></div></h5>
 
-              <div class="btn-group filter" role="group" aria-label="Categories">
-                <button class="btn btn-empty">Number of columns</button>
-                <button class="btn btn-art" data-filter=".single-column">1</button> <!-- A4 / US letter / A5 -->
-                <button class="btn btn-art" data-filter=".double-column">2</button>
-                <button class="btn btn-art" data-filter=".triple-column">3</button>
+              <h6>Number of columns</h6>
+
+              <div class="btn-group filter" role="group" aria-label="Number of columns" data-filter-group="columns">
+                <button class="btn btn-outline-art is-checked" data-filter="">All</button>
+                <button class="btn btn-outline-art" data-filter=".single-column">1</button> <!-- A4 / US letter / A5 -->
+                <button class="btn btn-outline-art" data-filter=".double-column">2</button>
+                <button class="btn btn-outline-art" data-filter=".triple-column">3</button>
               </div>
 
-              <br>
+              <h6 class="mt-2">Use of colour</h6>
 
-              <div class="btn-group filter" role="group" aria-label="Categories">
-                <button class="btn btn-empty">Use of colour</button>
-                <button class="btn btn-art" data-filter=".blackwhite">Black/white</button> <!-- A4 / US letter / A5 -->
-                <button class="btn btn-art" data-filter=".colour">Colour</button>
+              <div class="btn-group filter" role="group" aria-label="Use of colour" data-filter-group="colours">
+                <button class="btn btn-outline-art is-checked" data-filter="">All</button>
+                <button class="btn btn-outline-art" data-filter=".blackwhite">Black/white</button> <!-- A4 / US letter / A5 -->
+                <button class="btn btn-outline-art" data-filter=".colour">Colour</button>
               </div>
 
               <br><br>
 
-              <h5>Order journals by: <div class="btn-group sort" role="group" aria-label="Sort"><button type="button" class="btn btn-art text-white" data-sort-by="original-order">Original order</button><button type="button" class="btn btn-art text-white" data-sort-by="name">Name</button><button type="button" class="btn btn-art text-white" data-sort-by="number">Most recently added</button></div></h5>
+              <h5>Sort journals by:</h5>
+
+              <div class="btn-group sort" role="group" aria-label="Sort"><button type="button" class="btn btn-outline-art is-checked" data-sort-by="name">Name</button><button type="button" class="btn btn-outline-art" data-sort-by="number">Most recently added</button></div>
                           
               <!-- Number of columns: 1 / 2 / 3 -->
               <!-- Use of colour: monochrome / colour -->
@@ -299,6 +303,11 @@
     <!-- Extra css -->
     <style type="text/css">
 
+      .is-checked {
+        color: #fcfcfc;
+        background-color: #4C3959;
+      }
+
       .journal-example {
         display: block;
         position: relative;
@@ -435,6 +444,33 @@
           var sortByValue = $(this).attr('data-sort-by');
           $container.isotope({ sortBy: sortByValue });
         });
+
+        $('.btn-group').each( function( i, buttonGroup ) {
+          var $buttonGroup = $( buttonGroup );
+          $buttonGroup.on( 'click', 'button', function() {
+            $buttonGroup.find('.is-checked').removeClass('is-checked');
+            $( this ).addClass('is-checked');
+          });
+        });
+
+        var filters = {};
+
+        $('.filter').on( 'click', '.button', function() {
+          var $this = $(this);
+          var $buttonGroup = $this.parents('.btn-group');
+          var filterGroup = $buttonGroup.attr('data-filter-group');
+          filters[ filterGroup ] = $this.attr('data-filter');
+          var filterValue = concatValues( filters );
+          $container.isotope({ filter: filterValue });
+        });
+
+        function concatValues( obj ) {
+          var value = '';
+          for ( var prop in obj ) {
+            value += obj[ prop ];
+          }
+          return value;
+        }
       });
     </script>
   </body>

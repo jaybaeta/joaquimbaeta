@@ -477,21 +477,56 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
+.btn-outline-art {
+  color: #4C3959;
+  background-color: transparent;
+  border-color: #4C3959;
+  border-radius: 0;
+}
+
+.btn-outline-art:hover {
+  color: #fcfcfc;
+  background-color: #4C3959;
+  border-color: #4C3959;
+}
+
+.btn-outline-art:focus, .btn-outline-art.focus {
+  box-shadow: 0 0 0 0.2rem #8b7899;
+}
+
+.btn-outline-art.disabled, .btn-outline-art:disabled {
+  color: #fcfcfc;
+  background-color: #8b7899;
+  border-color: #8b7899;
+}
+
+.btn-outline-art:not(:disabled):not(.disabled):active, .btn-outline-art:not(:disabled):not(.disabled).active,
+.show > .btn-outline-art.dropdown-toggle {
+  color: #fcfcfc;
+  background-color: #4C3959;
+  border-color: #4C3959;
+}
+
+.btn-outline-art:not(:disabled):not(.disabled):active:focus, .btn-outline-art:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-art.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #8b7899;
+}
+
 /* 6 STYLING */
 
 /* 6.1 BUTTONS */
 
 .btn-empty {
   color: #1f1f1f;
-  background-color: #fcfcfc;
-  border-color: #4C3959;
+  background-color: transparent;
+  border-color: transparent;
   border-radius: 0;
 }
 
 .btn-empty:hover {
   color: #1f1f1f;
-  background-color: #fcfcfc;
-  border-color: #4C3959;
+  background-color: transparent;
+  border-color: transparent;
   cursor: default;
 }
 
