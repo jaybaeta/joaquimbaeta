@@ -275,6 +275,11 @@ kbd {
 
 /* 3 TYPOGRAPHY */
 
+@font-face{ 
+  font-family: 'Genzsch Et Heyse';
+  src: url('fonts/GenzschEtHeyse-webfont.woff') format('woff');
+}
+
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
