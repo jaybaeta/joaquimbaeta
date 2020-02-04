@@ -288,21 +288,42 @@ body {
 }
 
 .article-literature {
-  background-color: #f9fae5; /* Alternatives: #f6f4e9, #eee9de, #efead6 */
-  font-family: 'Playfair Display', serif;
+  background-color: #faf5f1; /* Alternatives: #f6f4e9 */  
 }
 
 .article-literature h1 {
+  /*font-family: 'Playfair Display', serif;*/
+  /*font-family: 'Dearest', serif;*/
+  font-family: 'Genzsch Et Heyse', serif;
   font-size: 6rem;
-  font-weight: 700;
-  color: #d9cdbccc;
-  text-shadow: 1px 3px 6px #f9fae5, 0 0 0 #c4ad9f, 1px 3px 6px #f9fae5;"
+  /*font-weight: 900;*/
+  margin-bottom: 2rem;
+  /*font-style: italic;*/
+  /*color: #d9cdbccc;*/
+  /*text-shadow: 1px 3px 6px #f9fae5, 0 0 0 #c4ad9f, 1px 3px 6px #f9fae5;"*/
+}
+
+.article-literature p {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 575px) {
   .article-literature h1 {
     font-size: 4rem;
   }
+}
+
+@media (max-width: 414px) {
+  .article-literature h1 {
+    font-size: 3.3rem;
+  }
+}
+
+.article-literature a {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
 }
 
 .article-film {
@@ -363,12 +384,35 @@ body {
   font-size: 0.95rem;
 }
 
+a.nav-link {
+  text-decoration: none;
+}
+
+a.dropdown-item {
+  text-decoration: none; 
+}
+
+a.dropdown-item:hover {
+  background: transparent;
+}
+
 /* 4.2 FOOTER */
 
-.footer-message {
+footer .license {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+footer .license > a {
   color: #fcfcfc;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+footer .license > a:hover {
+  opacity: 1;
+  text-decoration: none;
 }
 
 /* 5 SECTION-SPECIFIC */
@@ -376,6 +420,7 @@ body {
 /* 5.1 LITERATURE */
 
 .lit-list h3 {
+  font-family: 'EB Garamond', serif;
   font-weight: 700;
   font-style: italic;
 }
