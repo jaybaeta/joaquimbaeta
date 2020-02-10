@@ -414,6 +414,11 @@ a.dropdown-item:hover {
   opacity: 0.5;
 }
 
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+
 /* 4.2 FOOTER */
 
 footer .license {
