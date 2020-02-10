@@ -508,7 +508,24 @@ select:-moz-focusring {
 
 .article-poetry .col-12 {
   margin: auto;
-  max-width: 30rem;
+  max-width: max-content;
+}
+
+.article-poetry h1 + p::first-line {
+  /*font-variant: small-caps;*/
+  /*letter-spacing: 1px;*/
+}
+
+.article-poetry p {
+  max-width: 35rem;
+  font-size: 1.3rem;
+  line-height: 1.75;
+}
+
+.article-poetry .line {
+  display: inline-block;
+  text-indent: -2rem;
+  margin-left: 2rem;
 }
 
 /* 5.1.3 Edited */
