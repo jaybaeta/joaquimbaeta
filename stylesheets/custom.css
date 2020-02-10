@@ -17,8 +17,11 @@
     4.........Global
     4.1.......Navbar
     4.2.......Footer
+    4.3.......Temporary remove of outlines
     5.........Section-specific
     5.1.......Literature
+    5.1.2.....Poetry
+    5.1.3.....Edited
     5.2.......Film
     5.3.......Sound
     5.4.......Photography
@@ -30,25 +33,6 @@
     =============================  */
 
 /* 1 INDEX */
-
-/*.index-header {
-    font-family: 'Playfair Display';
-    font-size: 3rem;
-    font-size: 6vw;
-    font-weight: 700;
-    font-variant: small-caps;
-    letter-spacing: 0.25em;
-    text-align: center;
-    padding-top: 10%;
-    padding-left: 2%;
-}
-
-@media (min-width: 992px) {
-  .index-header {
-    font-size: 4rem;
-    font-size: 4.5vw;
-  }
-}*/
 
 .index-imgs {
   height: 100vh; 
@@ -285,15 +269,15 @@ kbd {
 }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
 .tooltip {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
 .popover {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
 .article-literature {
@@ -449,23 +433,7 @@ footer .license > a:hover {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 4.3 Temporary removal of outlines */
 
 button:focus,
 a:focus, a:active,
@@ -483,21 +451,11 @@ select:-moz-focusring {
   text-shadow: 0 0 0 #000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* 5 SECTION-SPECIFIC */
 
 /* 5.1 LITERATURE */
+
+/* 5.1.1 Literature list */
 
 .lit-list h3 {
   font-family: 'EB Garamond', serif;
@@ -508,17 +466,22 @@ select:-moz-focusring {
 .lit-list h4 {
   font-family: 'EB Garamond', serif;
   /*font-weight: 700;*/
-  font-style: italic;
+  /*font-style: italic;*/
+  margin-bottom: 1rem;
 }
 
 .lit-list h5 {
-  font-size: 1rem;
-  font-weight: 700;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1.1rem;
+  /*font-weight: 700;*/
   font-style: italic;
+  margin-bottom: 1rem;
 }
 
 .lit-list h6 {
-  font-style: italic;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1.05rem;
+  /*font-style: italic;*/
 }
 
 .lit-list a {
@@ -531,9 +494,22 @@ select:-moz-focusring {
   }
 }
 
+.lit-list .fas {
+  color: #1f1f1f33;
+
+}
+
+/* 5.1.2 Poetry */
+
 .article-poetry .col-12 {
   margin: auto;
   max-width: 30rem;
+}
+
+/* 5.1.3 Edited */
+
+.edited .lit-list img {
+  border: 1px solid #1f1f1f11;
 }
 
 /* 5.2 FILM */
