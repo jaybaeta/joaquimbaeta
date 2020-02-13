@@ -280,8 +280,15 @@ body {
   font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
-.article-literature {
-  background-color: #faf5f1; /* Alternatives: #f6f4e9 */  
+q, blockquote {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
 }
 
 .article-literature h1 {
@@ -459,6 +466,10 @@ select:-moz-focusring {
 /* 5 SECTION-SPECIFIC */
 
 /* 5.1 LITERATURE */
+
+.article-literature {
+  background-color: #faf5f1;
+}
 
 /* 5.1.1 Literature list */
 
