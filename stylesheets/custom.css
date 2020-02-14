@@ -334,11 +334,11 @@ blockquote {
 }
 
 a.nav-link {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a.dropdown-item {
-  text-decoration: none; 
+  text-decoration: none !important; 
 }
 
 a.dropdown-item:hover {
@@ -444,13 +444,17 @@ select:-moz-focusring {
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 4px;
-  text-decoration-color: #1f1f1f33;
+  text-decoration-color: #e4d8ce;
   transition: all ease-in-out 0.2s;
 }
 
 .article-literature a:hover {
   text-underline-offset: 2.5px;
   text-decoration-color: #1f1f1f;
+}
+
+.lit-list a {
+  text-decoration-color: #1f1f1f33;
 }
 
 /* 5.1.1 Literature list */
