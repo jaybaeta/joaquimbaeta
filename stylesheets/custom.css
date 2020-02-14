@@ -425,6 +425,7 @@ select:-moz-focusring {
 .article-literature p {
   font-family: 'EB Garamond', serif;
   font-size: 1.2rem;
+  line-height: 1.75;
 }
 
 @media (max-width: 575px) {
