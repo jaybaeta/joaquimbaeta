@@ -291,101 +291,30 @@ q:after {
     content: close-quote;
 }
 
-.article-literature h1 {
-  /*font-family: 'Playfair Display', serif;*/
-  /*font-family: 'Dearest', serif;*/
-  font-family: 'Genzsch Et Heyse', serif;
-  font-size: 6rem;
-  /*font-weight: 900;*/
-  margin-bottom: 2rem;
-  /*font-style: italic;*/
-  /*color: #d9cdbccc;*/
-  /*text-shadow: 1px 3px 6px #f9fae5, 0 0 0 #c4ad9f, 1px 3px 6px #f9fae5;"*/
+blockquote {
+  font-size: 1.4rem !important;
+  margin: auto 3rem;
 }
 
-.article-literature h2 {
-  font-family: 'EB Garamond', serif;
-  font-weight: 700;
-  font-style: italic;
-}
 
-.article-literature p {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.2rem;
-}
 
-@media (max-width: 575px) {
-  .article-literature h1 {
-    font-size: 4rem;
-  }
-}
 
-@media (max-width: 414px) {
-  .article-literature h1 {
-    font-size: 3.3rem;
-  }
-}
 
-.article-literature a {
-  color: #1f1f1f;
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 4px;
-  text-decoration-color: #1f1f1f33;
-  transition: all ease-in-out 0.2s;
-}
 
-.article-literature a:hover {
-  text-underline-offset: 2.5px;
-  text-decoration-color: #1f1f1f;
-}
 
-.article-film {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.article-film h1 {
-  font-weight: 300;
-}
-
-.article_sound {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.article_sound h1 {
-  font-weight: 300;
-}
-
-.article_photo {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.article_photo h1 {
-  font-weight: 300;
-}
-
-.article-art {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.article-art h1 {
-  font-weight: 300;
-}
-
-.article_dev {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.article_dev h1 {
-  font-weight: 300;
-}
 
 .redacted {
   background-color: #1f1f1f;
 }
 
 .figure-caption {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.article-literature .figure-caption {
+    font-family: 'EB Garamond', serif;
+    color: #1f1f1f;
+    font-size: 1rem;
 }
 
 /* 4 GLOBAL */
@@ -471,6 +400,53 @@ select:-moz-focusring {
   background-color: #faf5f1;
 }
 
+.article-literature h1 {
+  font-family: 'Genzsch Et Heyse', serif;
+  font-size: 6rem;
+  /*font-weight: 900;*/
+  margin-bottom: 2rem;
+  /*font-style: italic;*/
+  /*color: #d9cdbccc;*/
+  /*text-shadow: 1px 3px 6px #f9fae5, 0 0 0 #c4ad9f, 1px 3px 6px #f9fae5;"*/
+}
+
+.article-literature h2 {
+  font-family: 'EB Garamond', serif;
+  /*font-weight: 700;*/
+  font-style: italic;
+}
+
+.article-literature p {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 575px) {
+  .article-literature h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .article-literature h1 {
+    font-size: 3.3rem;
+  }
+}
+
+.article-literature a {
+  color: #1f1f1f;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  text-decoration-color: #1f1f1f33;
+  transition: all ease-in-out 0.2s;
+}
+
+.article-literature a:hover {
+  text-underline-offset: 2.5px;
+  text-decoration-color: #1f1f1f;
+}
+
 /* 5.1.1 Literature list */
 
 .lit-list h3 {
@@ -547,6 +523,14 @@ select:-moz-focusring {
 
 /* 5.2 FILM */
 
+.article-film {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article-film h1 {
+  font-weight: 300;
+}
+
 .article-film .article-box {
   height: 22.5rem;
   padding: 0;
@@ -573,7 +557,35 @@ select:-moz-focusring {
   z-index: 2;
 }
 
+/* 5.3 SOUND */
+
+.article_sound {
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.article_sound h1 {
+  font-weight: 300;
+}
+
+/* 5.4 PHOTOGRAPHY */
+
+.article_photo {
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.article_photo h1 {
+  font-weight: 300;
+}
+
 /* 5.5 ART */
+
+.article-art {
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.article-art h1 {
+  font-weight: 300;
+}
 
 .article-art .article-box  {
   background-color: rgba(28, 18, 35) !important;
@@ -661,6 +673,16 @@ select:-moz-focusring {
 .btn-outline-art:not(:disabled):not(.disabled):active:focus, .btn-outline-art:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-art.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem #8b7899;
+}
+
+/* 5.6 DEVELOPMENT */
+
+.article_dev {
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.article_dev h1 {
+  font-weight: 300;
 }
 
 /* 6 STYLING */
