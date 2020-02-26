@@ -8,7 +8,8 @@
     <title>Sound &mdash; Joaquim Baeta</title>
     
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,600,600i|Source+Sans+Pro:300,400&display=swap" rel="stylesheet">
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
 
     <!-- CSS -->
     <link href="stylesheets/bootstrap.css" rel="stylesheet" />
@@ -29,42 +30,96 @@
     <meta name="theme-color" content="#1F1F1F">
   </head>
 
-  <body class="article_sound bg-dark text-white">
+  <body class="article-sound">
     <!-- NAVBAR -->
-<!--     <nav class="navbar navbar-expand-lg" style="background-color: #1f1f1f; border-bottom: 1px solid #eaeaf6">
+    <nav class="navbar navbar-expand-md justify-content-center">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#jb-nav" aria-controls="jb-nav" aria-expanded="false" aria-label="Toggle navigation">
         <img src="images/logos/logo.svg" width="40px">
       </button>
-      <a class="d-md-none nav-link" href="index.html">Joaquim Baeta</a>
+      <a class="d-md-none nav-link text-white" href="index.html">Joaquim Baeta</a>
       <div class="collapse navbar-collapse" id="jb-nav">
-        <ul class="navbar-nav text-uppercase mx-auto">     
-          <li class="nav-item"><a class="nav-link text-white" href="literature.html">Literature</a></li>
+        <ul class="navbar-nav text-uppercase mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white lit-sound-text dropdown-toggle" href="#" id="jb-nav-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Literature
+            </a>
+            <div class="dropdown-menu" aria-labelledby="jb-nav-dropdown">
+              <a class="dropdown-item text-white lit-text" href="literature.html">Written</a>
+              <a class="dropdown-item text-white lit-text" href="edited.html">Edited</a>
+            </div>
+          </li>
           <li class="nav-item"><a class="nav-link text-white lit-film-text" href="film.html">Film</a></li>
-          <li class="nav-item"><a class="nav-link text-white lit-sound-text" href="sound.html">Sound</a></li>
-          <li class="nav-item"><a class="nav-link" style="padding: 0.5rem 1.10rem !important;" href="index.html"><img src="images/logos/nav-logo-0.4.svg" width="40px"></a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="sound.html">Sound</a></li>
+          <li class="nav-item d-none d-md-block"><a class="nav-link" style="padding: 0.5rem 1.10rem !important;" href="index.html"><img src="images/logos/nav-logo-0.4.svg" width="40px"></a></li>
           <li class="nav-item"><a class="nav-link text-white lit-photo-text" href="photography.html">Photography</a></li>
           <li class="nav-item"><a class="nav-link text-white lit-art-text" href="art.html">Art</a></li>
           <li class="nav-item"><a class="nav-link text-white lit-dev-text" href="development.html">Development</a></li>
         </ul>
       </div>
-    </nav> -->
+    </nav>
 
     <!-- CONTENT -->
-    <div class="container mt-5">
-      <div class="row text-center">
-        <div class="col-12">
-          <h1>Closed for maintenance.</h1>
-          <img src="images/point.jpg" class="w-50 rounded my-5">
-          <h3 class="font-weight-light">This page is currently under development. Come back soon and you should find something here. </h3>
+    <main role="main" style="background: #000">
+      <div class="container-fluid">
+        <div class="row text-white">
+
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <!-- <a href="sound/mimi-was.html"> -->
+              <img src="images/sound/mimi-was.jpg" class="article-box-img" alt="Mimi Was">
+            <!-- </a> -->
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <img src="images/sound/if-we-will-but-make-the-right-choice.png" class="article-box-img" alt="If We Will but Make the Right Choice">
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <img src="images/sound/solitary-take.jpg" class="article-box-img" alt="Solitary Take">
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <img src="images/sound/information-theory.png" class="article-box-img" alt="Information Theory">
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+          
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <img src="images/sound/the-window.jpg" class="article-box-img" alt="The Window">
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <img src="images/sound/existence.jpg" class="article-box-img" alt="Existence">
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <img src="images/sound/the-leyenda-suite.jpg" class="article-box-img" alt="The Leyenda Suite">
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center article-box">
+            <img src="images/sound/demos.svg" class="article-box-img" alt="Demos">
+            <!-- <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1> -->
+          </div>
+
+
+
+
+
+          
+          
         </div>
       </div>
     </div>
     
     <!-- FOOTER -->
-<!--     <div class="jumbotron-fluid mt-5">
-      <img src="images/buildings.svg" class="img-fluid">
+    <div class="jumbotron-fluid mt-5">
+      <img src="images/sound/footer.svg" class="img-fluid">
     </div>
-    <footer style="background-color: #1f1f1f">
+    <footer style="background-color: #FC654A">
       <div class="container pt-5">
         <div class="row">
           <div class="col-sm-6">
@@ -76,7 +131,7 @@
           </div>  
         </div>
       </div>   
-    </footer> -->
+    </footer>
   </body>
 </html>
 
