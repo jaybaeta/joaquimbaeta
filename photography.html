@@ -8,7 +8,11 @@
     <title>Photography &mdash; Joaquim Baeta</title>
     
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Maven+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet"> 
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
 
     <!-- CSS -->
     <link href="stylesheets/bootstrap.css" rel="stylesheet" />
@@ -31,23 +35,31 @@
 
   <body class="article_photo bg-dark text-white">
     <!-- NAVBAR -->
-<!--     <nav class="navbar navbar-expand-lg" style="background-color: #1f1f1f; border-bottom: 1px solid #eaeaf6">
+    <nav class="navbar navbar-expand-md justify-content-center" style="background-color: #17927D;">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#jb-nav" aria-controls="jb-nav" aria-expanded="false" aria-label="Toggle navigation">
         <img src="images/logos/logo.svg" width="40px">
       </button>
-      <a class="d-md-none nav-link" href="index.html">Joaquim Baeta</a>
+      <a class="d-md-none nav-link text-white" href="index.html">Joaquim Baeta</a>
       <div class="collapse navbar-collapse" id="jb-nav">
         <ul class="navbar-nav text-uppercase mx-auto">     
-          <li class="nav-item"><a class="nav-link text-white" href="literature.html">Literature</a></li>
-          <li class="nav-item"><a class="nav-link text-white lit-film-text" href="film.html">Film</a></li>
-          <li class="nav-item"><a class="nav-link text-white lit-sound-text" href="sound.html">Sound</a></li>
-          <li class="nav-item"><a class="nav-link" style="padding: 0.5rem 1.10rem !important;" href="index.html"><img src="images/logos/nav-logo-0.4.svg" width="40px"></a></li>
-          <li class="nav-item"><a class="nav-link text-white lit-photo-text" href="photography.html">Photography</a></li>
-          <li class="nav-item"><a class="nav-link text-white lit-art-text" href="art.html">Art</a></li>
-          <li class="nav-item"><a class="nav-link text-white lit-dev-text" href="development.html">Development</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle lit-photo-text" href="#" id="jb-nav-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Literature
+            </a>
+            <div class="dropdown-menu" aria-labelledby="jb-nav-dropdown" style="background-color: #17927D;">
+              <a class="dropdown-item text-white lit-photo-text" href="literature/literature.html">Written</a>
+              <a class="dropdown-item text-white lit-photo-text" href="literature/edited.html">Edited</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link text-white film-photo-text" href="film.html">Film</a></li>
+          <li class="nav-item"><a class="nav-link text-white sound-photo-text" href="sound.html">Sound</a></li>
+          <li class="nav-item d-none d-md-block"><a class="nav-link" style="padding: 0.5rem 1.10rem !important;" href="index.html"><img src="images/logos/nav-logo-0.4.svg" width="40px"></a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="photography.html">Photography</a></li>
+          <li class="nav-item"><a class="nav-link text-white photo-art-text" href="art.html">Art</a></li>
+          <li class="nav-item"><a class="nav-link text-white photo-dev-text" href="development.html">Development</a></li>
         </ul>
       </div>
-    </nav> -->
+    </nav>
 
     <!-- CONTENT -->
     <div class="container mt-5">

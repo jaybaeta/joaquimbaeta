@@ -269,7 +269,7 @@ kbd {
 }
 
 body {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -282,11 +282,11 @@ h2 {
 }
 
 .tooltip {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 .popover {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 q, blockquote {
@@ -318,7 +318,7 @@ blockquote {
 }
 
 .figure-caption {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 .article-literature .figure-caption {
@@ -368,8 +368,10 @@ a.dropdown-item:hover {
 /* 4.2 FOOTER */
 
 footer .license {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 0.95rem;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-size: 1rem !important;
+  color: #fcfcfc;
+  font-style: normal;
   opacity: 0.75;
 }
 
@@ -477,7 +479,7 @@ select:-moz-focusring {
 }
 
 .lit-list h5 {
-  font-family: 'Source Sans Pro', serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
   font-size: 1.1rem;
   /*font-weight: 700;*/
   font-style: italic;
@@ -485,7 +487,7 @@ select:-moz-focusring {
 }
 
 .lit-list h6 {
-  font-family: 'Source Sans Pro', serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
   font-size: 1.05rem;
   /*font-style: italic;*/
 }
@@ -538,7 +540,7 @@ select:-moz-focusring {
 /* 5.2 FILM */
 
 .article-film {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 .article-film h1 {
@@ -574,7 +576,7 @@ select:-moz-focusring {
 /* 5.3 SOUND */
 
 .article-sound {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 .article-sound h1 {
@@ -618,7 +620,7 @@ select:-moz-focusring {
 /* 5.4 PHOTOGRAPHY */
 
 .article_photo {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 .article_photo h1 {
@@ -628,7 +630,7 @@ select:-moz-focusring {
 /* 5.5 ART */
 
 .article-art {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 .article-art h1 {
@@ -725,11 +727,11 @@ select:-moz-focusring {
 
 /* 5.6 DEVELOPMENT */
 
-.article_dev {
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+.article-dev {
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
-.article_dev h1 {
+.article-dev h1 {
   font-weight: 300;
 }
 
