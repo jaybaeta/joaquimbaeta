@@ -406,12 +406,11 @@ select:-moz-focusring {
 }
 
 .article-literature h1 {
-  font-family: 'Genzsch Et Heyse', serif;
-  font-size: 6rem;
-  /*font-weight: 900;*/
+  /*font-family: 'Genzsch Et Heyse', serif;*/
+  font-family: 'EB Garamond', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
   margin-bottom: 2rem;
-  /*font-style: italic;*/
-  /*color: #d9cdbccc;*/
   /*text-shadow: 1px 3px 6px #f9fae5, 0 0 0 #c4ad9f, 1px 3px 6px #f9fae5;"*/
 }
 
@@ -429,7 +428,7 @@ select:-moz-focusring {
 
 @media (max-width: 575px) {
   .article-literature h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 
