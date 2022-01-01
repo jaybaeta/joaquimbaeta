@@ -8,8 +8,10 @@
     <title>Film &mdash; Joaquim Baeta</title>
     
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Source+Sans+Pro" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/ae9bb87dc8.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Maven+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
 
     <!-- CSS -->
     <link href="stylesheets/bootstrap.css" rel="stylesheet" />
@@ -32,14 +34,22 @@
 
   <body class="article-film">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md" style="background-color: #B61C42;">
+    <nav class="navbar navbar-expand-md justify-content-center" style="background-color: #B61C42;">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#jb-nav" aria-controls="jb-nav" aria-expanded="false" aria-label="Toggle navigation">
         <img src="images/logos/logo.svg" width="40px">
       </button>
       <a class="d-md-none nav-link text-white" href="index.html">Joaquim Baeta</a>
       <div class="collapse navbar-collapse" id="jb-nav">
-        <ul class="navbar-nav text-uppercase mx-auto">     
-          <li class="nav-item"><a class="nav-link text-white lit-film-text" href="literature.html">Literature</a></li>
+        <ul class="navbar-nav text-uppercase mx-auto"> 
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle lit-film-text" href="#" id="jb-nav-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Literature
+            </a>
+            <div class="dropdown-menu" aria-labelledby="jb-nav-dropdown" style="background-color: #B61C42;">
+              <a class="dropdown-item text-white lit-film-text" href="literature.html">Written</a>
+              <a class="dropdown-item text-white lit-film-text" href="edited.html">Edited</a>
+            </div>
+          </li>
           <li class="nav-item"><a class="nav-link text-white" href="film.html">Film</a></li>
           <li class="nav-item"><a class="nav-link text-white film-sound-text" href="sound.html">Sound</a></li>
           <li class="nav-item d-none d-md-block"><a class="nav-link" style="padding: 0.5rem 1.10rem !important;" href="index.html"><img src="images/logos/nav-logo-0.4.svg" width="40px"></a></li>
@@ -56,47 +66,47 @@
         <div class="row text-white">
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/mimi-was.jpg" class="article-box-img" alt="Mimi Was">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Mimi Was</h1>
+            <h1 class="pl-5">Mimi Was</h1>
           </div>
 
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/solitary-take.png" class="article-box-img" alt="Solitary Take">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Solitary Take</h1>
+            <h1 class="pl-5">Solitary Take</h1>
           </div>
 
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/a-day-at-sundak-beach.jpg" class="article-box-img" alt="A Day at Sundak Beach">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">A Day at Sundak Beach</h1>
+            <h1 class="pl-5">A Day at Sundak Beach</h1>
           </div>
  
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/awkward-hockey-players.png" class="article-box-img" alt="Awkward hockey players">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Awkward Hockey Players</h1>
+            <h1 class="pl-5">Awkward Hockey Players</h1>
           </div>
 
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/number-27.jpg" class="article-box-img" alt="Number 27">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Number 27</h1>
+            <h1 class="pl-5">Number 27</h1>
           </div>
 
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/dick-stole-my-teddy-bear.png" class="article-box-img" alt="Dick Stole My Teddy Bear">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Dick Stole My Teddy Bear</h1>
+            <h1 class="pl-5">Dick Stole My Teddy Bear</h1>
           </div>
 
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/jesus-adolf.png" class="article-box-img" alt="Jesus, Adolf and Parallelism">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Jesus, Adolf and Parallelism</h1>
+            <h1 class="pl-5">Jesus, Adolf and Parallelism</h1>
           </div>
 
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/one.png" class="article-box-img" alt="One">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">One</h1>
+            <h1 class="pl-5">One</h1>
           </div>
 
           <div class="col-md-6 d-flex align-items-center article-box">
             <img src="./images/film/jungle-man-jack.png" class="article-box-img" alt="Jungle Man Jack">
-            <h1 class="pl-5" style="font-weight: 700; font-family: 'Playfair Display'">Jungle Man Jack</h1>
+            <h1 class="pl-5">Jungle Man Jack</h1>
           </div>
         </div>
       </div>
@@ -104,7 +114,7 @@
     
     <!-- FOOTER -->
     <div class="jumbotron-fluid pt-5" style="background: #000">
-      <img src="images/film/footer.svg" class="img-fluid">
+      <img src="images/film/footer.svg" style="width: 100%">
     </div>
     <footer style="background-color: #b71b4d">
       <div class="container pt-5">
@@ -116,6 +126,11 @@
           </div>
           <div class="col-sm-6 text-right">
           </div>  
+        </div>
+        <div class="row pt-5">
+          <div class="col-12">
+            <p class="license"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-sa pr-1"></i> Except where otherwise noted, the content on this website is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> license.</p>
+          </div>
         </div>
       </div>   
     </footer>
