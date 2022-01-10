@@ -314,12 +314,6 @@ blockquote {
   font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
-.article-literature .figure-caption {
-    font-family: 'EB Garamond', serif;
-    color: #1f1f1f;
-    font-size: 1rem;
-}
-
 /* 4 GLOBAL */
 
 /* 4.1 NAVBAR */
@@ -416,11 +410,17 @@ select:-moz-focusring {
 
 .article-literature h2 {
   font-family: 'EB Garamond', serif;
-  /*font-weight: 700;*/
-  font-style: italic;
+  font-weight: 700;
+  /*font-style: italic;*/
 }
 
 .article-literature p {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
+  line-height: 1.75;
+}
+
+.article-literature ol {
   font-family: 'EB Garamond', serif;
   font-size: 1.2rem;
   line-height: 1.75;
@@ -453,6 +453,16 @@ select:-moz-focusring {
 
 .lit-list a {
   text-decoration-color: #1f1f1f33;
+}
+
+.article-literature figure img {
+  border: 1px solid #1f1f1f
+}
+
+.article-literature .figure-caption {
+    font-family: 'EB Garamond', serif;
+    color: #1f1f1f;
+    font-size: 1rem;
 }
 
 /* 5.1.1 Literature list */
@@ -527,6 +537,52 @@ select:-moz-focusring {
 
 .edited .lit-list img {
   border: 1px solid #1f1f1f11;
+}
+
+/* 5.1.4 Fiction */
+
+.fiction p {
+  /*font-size: 1.3rem;*/
+  text-indent: 1.5rem;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.fiction h1 + p, .fiction h2 + p {
+  text-indent: 0;
+}
+
+/* 5.1.5 References */
+
+ol.references {
+  list-style: none;
+  counter-reset: list;
+  padding-left: 3px;
+}
+
+ol.references li:before {
+  content: counter(list);
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  right: 100%;
+  font-style: italic;
+  font-weight: bold;
+  /*line-height: 1.25;*/
+}
+
+ol.references li {
+  counter-increment: list;
+  position: relative;
+  padding-left: 0px; 
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  margin-left: -1px;
+  /*line-height: 1.25;*/
+}
+
+ol.references li em {
+  display: block;
 }
 
 /* 5.2 FILM */
