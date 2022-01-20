@@ -314,6 +314,12 @@ blockquote {
   font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
+.article-literature .figure-caption {
+    font-family: 'EB Garamond', serif;
+    color: #1f1f1f;
+    font-size: 1rem;
+}
+
 /* 4 GLOBAL */
 
 /* 4.1 NAVBAR */
@@ -406,6 +412,7 @@ select:-moz-focusring {
   font-weight: 700;
   margin-bottom: 2rem;
   /*text-shadow: 1px 3px 6px #f9fae5, 0 0 0 #c4ad9f, 1px 3px 6px #f9fae5;"*/
+  /*text-align: center;*/
 }
 
 .article-literature h2 {
