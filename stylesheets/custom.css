@@ -559,6 +559,13 @@ select:-moz-focusring {
   text-indent: 0;
 }
 
+h4 {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
 /* 5.1.5 References */
 
 ol.references {
