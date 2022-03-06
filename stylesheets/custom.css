@@ -361,22 +361,59 @@ a.dropdown-item:hover {
 /* 4.2 FOOTER */
 
 footer .license {
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  font-size: 1rem !important;
+  font-family: 'Maven Pro', 'Source Sans Pro', 'Segoe UI', 'Helvetica Neue', sans-serif !important;
+  font-size: 0.9rem !important;
+  line-height: 1.15 !important;
   color: #fcfcfc;
-  font-style: normal;
   opacity: 0.75;
+  margin-bottom: 0;
 }
 
 footer .license > a {
   color: #fcfcfc;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  text-decoration-color: #fcfcfc11;
+}
+
+footer .fa-creative-commons {
+  font-size: 1.75rem;
+  line-height: 1.15 !important;
+  color: #fcfcfc;
   opacity: 0.75;
-  text-decoration: none;
+  margin-bottom: 0;
 }
 
 footer .license > a:hover {
   opacity: 1;
-  text-decoration: none;
+  /*text-decoration: none;*/
+  text-decoration-color: #fcfcfc88;
+}
+
+footer p .fa-brands {
+  font-size: 1.75rem;
+  color: #fcfcfc44 !important;
+  transition: all ease-in-out 0.3s;
+}
+
+footer .fa-twitter:hover {
+  color: #1d9bf0 !important;
+}
+
+footer .fa-instagram:hover {
+  color: #d82b7e !important;
+}
+
+footer .fa-github:hover {
+  color: #9cdaf0 !important;
+}
+
+footer .fa-bandcamp:hover {
+  color: #1da0c3 !important;
+}
+
+footer .fa-youtube:hover {
+  color: #ff0000 !important;
 }
 
 /* 4.3 Temporary removal of outlines */
@@ -426,6 +463,10 @@ select:-moz-focusring {
   font-size: 1.2rem;
   line-height: 1.75;
 }
+
+/*.article-literature h1 + p:first-line {
+  font-variant: small-caps;
+}*/
 
 .article-literature ol {
   font-family: 'EB Garamond', serif;
@@ -523,18 +564,18 @@ select:-moz-focusring {
   max-width: max-content;
 }
 
-.article-poetry h1 + p::first-line {
+.article-poetry .col-12 h1 + p::first-line {
   /*font-variant: small-caps;*/
   /*letter-spacing: 1px;*/
 }
 
-.article-poetry p {
+.article-poetry .col-12 p {
   max-width: 35rem;
   font-size: 1.3rem;
   line-height: 1.75;
 }
 
-.article-poetry .line {
+.article-poetry .col-12 .line {
   display: inline-block;
   text-indent: -2rem;
   margin-left: 2rem;
