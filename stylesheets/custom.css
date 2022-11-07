@@ -35,7 +35,7 @@
 /* 1 INDEX */
 
 .index-imgs {
-  height: 100vh; 
+  height: 83.5vh; 
   background-size: cover;
   filter: grayscale(100%);
   transition: all ease-in-out 0.2s;
@@ -59,17 +59,20 @@
   }
 }
 
-.index-section-header {
+.index-section-header, .index-footer {
   color: #ffffffbb;
   font-family: 'EB Garamond', serif;
   font-style: italic;
-  /*font-weight: 700;*/
+  font-weight: 700 !important;
   transition: all ease-in-out 0.2s;
 }
 
 .index-section-header:hover {
   color: #fff;
   text-decoration: none;
+}
+.index-footer {
+  height: 16.5vh;
 }
 
 /* 2 COLOURS */
@@ -414,6 +417,21 @@ footer .fa-bandcamp:hover {
 
 footer .fa-youtube:hover {
   color: #ff0000 !important;
+}
+
+footer .fa-mastodon:hover {
+  color: #595aff !important;
+}
+
+footer .scenoptica-icon {
+  height: 27px;
+  margin-top: -13px;
+  filter: grayscale(100%) brightness(40%);
+  transition: all ease-in-out 0.2s;
+}
+
+footer .scenoptica-icon:hover {
+  filter: grayscale(0%);
 }
 
 /* 4.3 Temporary removal of outlines */
