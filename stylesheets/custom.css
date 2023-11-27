@@ -470,7 +470,7 @@ select:-moz-focusring {
   /*text-align: center;*/
 }
 
-.article-literature h2 {
+.article-literature h2, .article-literature h3, .article-literature h4 {
   font-family: 'EB Garamond', serif;
   font-weight: 700;
   /*font-style: italic;*/
@@ -522,7 +522,7 @@ select:-moz-focusring {
 }
 
 .article-literature figure img {
-  border: 1px solid #1f1f1f
+  border: 1px solid #1f1f1f;
 }
 
 .article-literature .figure-caption {
